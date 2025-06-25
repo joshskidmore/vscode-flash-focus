@@ -2,6 +2,12 @@
 
 All notable changes to the "flash-focus" extension will be documented in this file.
 
+## [0.0.4] - 2025-06-24
+
+### Added
+- Demo GIF screenshot added to README
+- Removed README.md.dist
+
 ## [0.0.3] - 2025-06-24
 
 ### Added
