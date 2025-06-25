@@ -1,5 +1,8 @@
 # Flash Focus
 
+![Demo of Flash Focus in action](media/demo.gif)
+
+
 Flash Focus helps your eyes keep up with your fingers by highlighting the area around your cursor after navigating between editor groups in VS Code.
 
 ## Features
