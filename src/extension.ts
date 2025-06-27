@@ -22,7 +22,9 @@ function flashAroundCursor(durationMs = vscode.workspace.getConfiguration('flash
   const to = Math.min(editor.document.lineCount - 1, line + 3);
   const areaRange = new vscode.Range(from, 0, to + 1, 0);
 
-  editor.setDecorations(areaDecoration, [areaRange]);
+  // editor.setDecorations(areaDecoration, [areaRange]);
+  const range = new vscode.Range(line, 0, line, 100);
+  editor.setDecorations(areaDecoration, [range]);
 
   setTimeout(() => {
     editor.setDecorations(areaDecoration, []);
