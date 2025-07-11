@@ -4,7 +4,7 @@
   "publisher": "JoshSkidmore2025",
   "description": "Flash Focus helps your eyes keep up with your fingers.",
   "icon": "media/icon.png",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repository": {
     "type": "git",
     "url": "https://github.com/joshskidmore/vscode-flash-focus.git"
@@ -20,7 +20,8 @@
     "onCommand:flashFocus.focusLeft",
     "onCommand:flashFocus.focusRight",
     "onCommand:flashFocus.focusDown",
-    "onCommand:flashFocus.focusUp"
+    "onCommand:flashFocus.focusUp",
+    "onCommand:flashFocus.focusLine"
   ],
   "main": "./dist/extension.js",
   "contributes": {
@@ -40,6 +41,10 @@
       {
         "command": "flashFocus.focusUp",
         "title": "Flash Focus Up"
+      },
+      {
+        "command": "flashFocus.focusLine",
+        "title": "Flash Focus Line"
       }
     ],
     "keybindings": [

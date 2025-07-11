@@ -60,6 +60,9 @@ export function activate(context: vscode.ExtensionContext) {
 
     vscode.commands.registerCommand('flashFocus.focusUp', () =>
       navigateWithFlash('workbench.action.navigateUp')),
+
+    vscode.commands.registerCommand('flashFocus.focusLine', () =>
+      flashAroundCursor()),
   );
 }
 

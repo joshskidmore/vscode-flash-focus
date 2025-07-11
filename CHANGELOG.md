@@ -2,6 +2,9 @@
 
 All notable changes to the "flash-focus" extension will be documented in this file.
 
+## [0.0.6] - 2025-07-10
+- Added "flashFocus.focusLine" command to flash the current line
+
 ## [0.0.5] - 2025-06-27
 - Cleanup UI to appear more like emac's hl-line-flash
 - Code cleanup
